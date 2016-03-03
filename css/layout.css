@@ -1,5 +1,9 @@
 /*your custom CSS here*/
 
+body {
+	padding-top: 75px;
+}
+
 img {
 	width: 100%;
 }
@@ -8,5 +12,17 @@ img {
 	padding-top: 10px;
 	padding-bottom: 10px;
 	padding-left:15px;
-	padding-right: 15px; 
+	padding-right: 15px;
+}
+
+.heading {
+	opacity: 0.5;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+}
+
+.heading:hover {
+	opacity: 1;
 }
